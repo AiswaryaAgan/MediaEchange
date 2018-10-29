@@ -1,0 +1,51 @@
+<resources>
+    <string name="app_name">HeroApp</string>
+    <string name="Search_Text">Search Here</string>
+    <string name="Video_View_Btn">Videos</string>
+    <string name="Image_View_Btn">Images</string>
+    <string name="Gif_View_Btn">Gif</string>
+    <string name="Search_Text1">Search Here</string>
+    <string name="Video_Btn_1">Videos</string>
+    <string name="Image_Btn1">Images</string>
+    <string name="Gif_Btn1">Gif</string>
+    <string name="SearchButton">Search</string>
+    <string name="Back_Button">Back</string>
+    <string name="Topic_Hint">Enter Topic</string>
+    <string name="UploadButton">Upload</string>
+    <string name="Image_Upload">Upload Image</string>
+    <string name="HomeButton">Home</string>
+    <string name="AddButton">Add</string>
+    <string name="ProfileButton">Profile</string>
+    <string name="HomeButton1">Home</string>
+    <string name="AddButton1">Add</string>
+    <string name="ProfileButton1">Profile</string>
+    <string name="SearchButton2">Search</string>
+    <string name="BackButton2">Back</string>
+    <string name="SearchButton1">Search</string>
+    <string name="ImageGrid">Image_Example</string>
+    <string name="VideoTopicHint">Enter Topic</string>
+    <string name="Video_UploadButton">Upload Video</string>
+    <string name="VideoAddBtn">Pick Video</string>
+    <string name="Image_Pick_Btn">Pick Image</string>
+    <string name="videoPlayBtn">VideoPlayBtn</string>
+    <string name="video_Item">VideoItem</string>
+    <string name="VideoPlayBTn">Video Play Btn</string>
+    <string name="videoThumbimg">VideoThumbImg</string>
+    <string name="Gif_Upload_Btn">Gif Upload Btn</string>
+    <string name="Gif_Upload_Image">GifUploadImg</string>
+    <string name="PickGif">Pick GIF</string>
+    <string name="TopFeedButton">Top Feed</string>
+    <string name="TrendingButton">Trending</string>
+    <string name="Share_Image">Share Image</string>
+    <string name="Download_Btn">DownloadButton</string>
+    <string name="Share_Btn">ShareButton</string>
+    <string name="Share_Btn_vid">ShareBtnVid</string>
+    <string name="Download_Btn_Vid">Download_Vid</string>
+
+    //Array for Alert Dialog Box for adding media
+    <string-array name="AddOptions">
+        <item>Image</item>
+        <item>Video</item>
+        <item>Gif</item>
+    </string-array>
+</resources>

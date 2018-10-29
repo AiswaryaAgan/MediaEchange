@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main_rl"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/black"
+    android:orientation="vertical"
+    tools:context=".GifViewActivity">
+
+    <EditText
+        android:id="@+id/SearchText"
+        android:layout_width="276dp"
+        android:layout_height="40dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginEnd="30dp"
+        android:layout_marginRight="30dp"
+        android:layout_marginTop="24dp"
+        android:background="@android:color/background_light"
+        android:ems="10"
+        android:hint="@string/Search_Text"
+        android:inputType="textPersonName"
+        tools:layout_editor_absoluteX="81dp"
+        tools:layout_editor_absoluteY="26dp" />
+
+    <ImageButton
+        android:id="@+id/SearchBtn2"
+        android:layout_width="50dp"
+        android:layout_height="40dp"
+        android:layout_alignBottom="@+id/SearchText"
+        android:layout_alignEnd="@+id/SearchText"
+        android:layout_alignRight="@id/SearchText"
+        android:background="?android:actionBarItemBackground"
+        android:contentDescription="@string/SearchButton2"
+        app:srcCompat="@drawable/ic_search_black_24dp"
+        tools:layout_editor_absoluteX="309dp"
+        tools:layout_editor_absoluteY="26dp" />
+
+    <Button
+        android:id="@+id/VideoBtn2"
+        android:layout_width="130dp"
+        android:layout_height="45dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/SearchText"
+        android:background="?android:actionBarItemBackground"
+        android:onClick="VideoOnClick"
+        android:text="@string/Video_View_Btn"
+        android:textColor="@android:color/background_light"
+        android:textSize="14sp" />
+
+    <Button
+        android:id="@+id/ImageBtn2"
+        android:layout_width="130dp"
+        android:layout_height="45dp"
+        android:layout_below="@+id/SearchText"
+        android:layout_centerHorizontal="true"
+        android:background="?android:actionBarItemBackground"
+        android:onClick="ImageOnClick"
+        android:text="@string/Image_View_Btn"
+        android:textColor="@android:color/background_light"
+        android:textSize="14sp" />
+
+    <Button
+        android:id="@+id/GifBtn2"
+        android:layout_width="130dp"
+        android:layout_height="45dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_below="@+id/SearchText"
+        android:background="?android:actionBarItemBackground"
+        android:onClick="GifOnClick"
+        android:text="@string/Gif_View_Btn"
+        android:textColor="@android:color/background_light"
+        android:textSize="14sp" />
+
+    <ImageButton
+        android:id="@+id/backBtn"
+        android:layout_width="65dp"
+        android:layout_height="40dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignTop="@+id/SearchText"
+        android:background="?android:actionBarItemBackground"
+        android:contentDescription="@string/BackButton2"
+        android:onClick="BackOnClick"
+        android:tint="@android:color/background_light"
+        app:srcCompat="@drawable/ic_keyboard_backspace_black_24dp" />
+
+    <ImageButton
+        android:id="@+id/HomeBtn"
+        android:layout_width="120dp"
+        android:layout_height="63dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:background="?android:actionBarItemBackground"
+        android:contentDescription="@string/HomeButton"
+        android:onClick="HomeOnClick"
+        app:srcCompat="@drawable/ic_home_black_24dp" />
+
+    <ImageButton
+        android:id="@+id/AddBtn"
+        android:layout_width="120dp"
+        android:layout_height="63dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:background="?android:actionBarItemBackground"
+        android:contentDescription="@string/AddButton"
+        android:onClick="AddOnClick"
+        app:srcCompat="@drawable/ic_add_black_24dp" />
+
+    <ImageButton
+        android:id="@+id/ProfileBtn1"
+        android:layout_width="120dp"
+        android:layout_height="63dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:background="?android:actionBarItemBackground"
+        android:contentDescription="@string/ProfileButton"
+        app:srcCompat="@drawable/ic_person_black_24dp" />
+
+</RelativeLayout>
